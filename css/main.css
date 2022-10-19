@@ -1,0 +1,195 @@
+*, ul, li, a{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'comfortaa', 'rubik', 'comfortaa', 'sanserif';
+}
+
+body {
+    background-color: #e6f3ff;
+}
+
+@font-face {
+    font-family: 'comfortaa';
+    src: url('../font/confortaa.ttf') format('opentype'), url('../font/confortaa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefinsans';
+    src: url('../font/josefinsans.ttf') format('opentype'), url('../font/josefinsans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../font/rubik.ttf') format('opentype'), url('../font/rubik.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'disis';
+    src: url('../font/dosis.ttf') format('opentype'), url('../font/dosis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'baloo';
+    src: url('../font/baloo.ttf') format('opentype'), url('../font/baloo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: #54a5f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+header > img {
+    min-width: 20%;
+    max-width: 80px;
+    margin-left: 60px;
+}
+
+header > a > img {
+    width: 25px;
+    margin-right: 60px;
+}
+
+nav {    
+    padding: 0px 50px 0px 50px;
+    display: none;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+main > section > a {
+    width: 100%;
+    overflow: hidden;
+}
+
+main > section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60%;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+main > section > img {
+    width: 45%;
+}
+
+section > div > h1 {
+    font-size: 20px;
+}
+
+.titulo1 {
+    color: #1e90ff;
+}
+.titulo2 {
+    color: #FFC727;
+}
+.titulo3 {
+    color: #ff725e;
+}
+.titulo4 {
+    color: #92E3A9;
+}
+
+section > div > a {
+    max-width: 45%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn1 {
+    background-color: #1e90ff;
+    color: #fff;
+}
+.btn2 {
+    background-color: #FFC727;
+    color: #372900;
+}
+.btn3 {
+    background-color: #ff725e;
+    color: #fff;
+}
+.btn4 {
+    background-color: #92E3A9;
+    color: #000;
+}
+
+section > div > a {
+    font-size: 12px;
+}
+
+section > div > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+section > a > img {
+    width: 100%;
+    transform: rotate(20deg);
+}
+
+footer {
+    background-color: #54a5f6;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div {
+    display: flex;
+    margin-right: 15px;
+}
+
+footer > div > a > img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+footer > h1 {
+    font-size: 12px;
+}
+
+
+
