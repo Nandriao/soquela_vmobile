@@ -47,6 +47,8 @@ body {
     font-style: normal;
 }
 
+/*CONFIGURAÇÕES DO HEADER*/
+
 header {
     background-color: #54a5f6;
     display: flex;
@@ -80,6 +82,8 @@ nav > ul {
     align-items: center;
 }
 
+/*CONFIGURAÇÕES DO MAIN*/
+
 main {
     display: flex;
     justify-content: center;
@@ -111,7 +115,7 @@ main > section > div {
 }
 
 main > section > img {
-    width: 45%;
+    max-width: 45%;
 }
 
 section > div > h1 {
@@ -169,6 +173,8 @@ section > a > img {
     transform: rotate(20deg);
 }
 
+/*CONFIGURAÇÕES DO FOOTER*/
+
 footer {
     background-color: #54a5f6;
     display: flex;
@@ -191,5 +197,15 @@ footer > h1 {
     font-size: 12px;
 }
 
+/*CONFIGURAÇÕES DA SCROLLBAL*/
 
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 4px;
+    color: #1e90ff;
+    background-color: #1e90ff;
+}
 
